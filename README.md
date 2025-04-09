@@ -6,7 +6,8 @@ PyngTest Agent is an AI-based automation tool for testing the web interface of h
 ## Features
 
 - Run natural language UI test instructions  
-- Select from reusable predefined test cases  
+- Select from reusable predefined test cases
+- Can run singlre as well as multiple test cases one after the other  
 - LLM model selection (OpenAI, Gemini, Anthropic)  
 - Optional vision support for UI element understanding  
 - History logs automatically cleaned after execution
