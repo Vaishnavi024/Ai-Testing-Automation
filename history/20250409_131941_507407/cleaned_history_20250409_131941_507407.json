@@ -1,0 +1,224 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Unknown - I have not yet performed any actions.",
+          "memory": "Starting with the new task. I have completed 0/5 steps",
+          "next_goal": "Open https://pyng.co.in."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://pyng.co.in"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://pyng.co.in",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      },
+      "metadata": {
+        "step_start_time": 1744184981.520868,
+        "step_end_time": 1744184987.210309,
+        "input_tokens": 2728,
+        "step_number": 2
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - The page was opened successfully.",
+          "memory": "Starting with the new task. I have completed 1/5 steps. Therapists & Counsellors category card found.",
+          "next_goal": "Locate the category card labeled \"Therapists & Counsellors\" and click on it."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked button with index 14: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://pyng.co.in/",
+            "title": "Pyng | Connect With Top Professionals Online Across 30+ Categories"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[3]/div[2]/div/div[2]/div/div[2]/div/a/div",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a",
+              "div"
+            ],
+            "attributes": {
+              "tabindex": "0",
+              "class": "css-175oi2r r-1loqt21 r-1otgn73"
+            },
+            "shadow_root": false,
+            "css_selector": "html > body > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a > div.css-175oi2r.r-1loqt21.r-1otgn73",
+            "page_coordinates": {},
+            "viewport_coordinates": {},
+            "viewport_info": {}
+          }
+        ],
+        "url": "https://pyng.co.in/",
+        "title": "Pyng | Connect With Top Professionals Online Across 30+ Categories"
+      },
+      "metadata": {
+        "step_start_time": 1744184987.210748,
+        "step_end_time": 1744184991.969269,
+        "input_tokens": 3267,
+        "step_number": 3
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - The Therapists & Counsellors category card was clicked.",
+          "memory": "Starting with the new task. I have completed 2/5 steps. Therapists & Counsellors category card found and clicked.",
+          "next_goal": "Wait for the page to update."
+        },
+        "action": [
+          {
+            "wait": {
+              "seconds": 3
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd52  Waiting for 3 seconds",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://pyng.co.in/c/mental-health-therapists-s733q4/",
+            "title": "Top Stress & Anxiety Counsellors Online, Just A Pyng Away"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          null
+        ],
+        "url": "https://pyng.co.in/c/mental-health-therapists-s733q4/",
+        "title": "Top Stress & Anxiety Counsellors Online, Just A Pyng Away"
+      },
+      "metadata": {
+        "step_start_time": 1744184991.96971,
+        "step_end_time": 1744184999.564707,
+        "input_tokens": 3651,
+        "step_number": 4
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - The page updated and shows a list of therapists.",
+          "memory": "Starting with the new task. I have completed 3/5 steps. Therapists & Counsellors category card found and clicked. Page updated.",
+          "next_goal": "Confirm that a new section, result, or content is visible."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "The task is completed.\nStep 1: Opened https://pyng.co.in.\nStep 2: Located the category card labeled \"Therapists & Counsellors\" - PASSED.\nStep 3: Clicked on the card.\nStep 4: Waited for the view or page to update.\nStep 5: Confirmed that a new section with therapists is visible - PASSED. New content shown: A list of therapists.",
+              "success": true
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "success": true,
+          "extracted_content": "The task is completed.\nStep 1: Opened https://pyng.co.in.\nStep 2: Located the category card labeled \"Therapists & Counsellors\" - PASSED.\nStep 3: Clicked on the card.\nStep 4: Waited for the view or page to update.\nStep 5: Confirmed that a new section with therapists is visible - PASSED. New content shown: A list of therapists.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://pyng.co.in/c/mental-health-therapists-s733q4/",
+            "title": "Top Stress & Anxiety Counsellors Online, Just A Pyng Away"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          null
+        ],
+        "url": "https://pyng.co.in/c/mental-health-therapists-s733q4/",
+        "title": "Top Stress & Anxiety Counsellors Online, Just A Pyng Away"
+      },
+      "metadata": {
+        "step_start_time": 1744184999.566154,
+        "step_end_time": 1744185003.9430962,
+        "input_tokens": 3795,
+        "step_number": 5
+      }
+    }
+  ]
+}

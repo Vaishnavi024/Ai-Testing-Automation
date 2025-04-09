@@ -1,0 +1,259 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Unknown - I am on a blank page and need to navigate to google to start the task",
+          "memory": "Starting with the new task. I have completed 0/1 steps",
+          "next_goal": "Navigate to google"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.google.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.google.com",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      },
+      "metadata": {
+        "step_start_time": 1744184950.6978009,
+        "step_end_time": 1744184957.601599,
+        "input_tokens": 2590,
+        "step_number": 2
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - I navigated to google",
+          "memory": "Starting with the new task. I have completed 1/1 steps",
+          "next_goal": "Input the search query"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 10,
+              "text": "temperature in bangalore"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input temperature in bangalore into index 10",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.google.com/",
+            "title": "Google"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          {
+            "tag_name": "textarea",
+            "xpath": "html/body/div/div[3]/form/div/div/div/div/div[2]/textarea",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "textarea"
+            ],
+            "attributes": {
+              "class": "gLFyf",
+              "aria-controls": "Alh6id",
+              "aria-owns": "Alh6id",
+              "autofocus": "",
+              "title": "Search",
+              "value": "",
+              "aria-label": "Search",
+              "placeholder": "",
+              "aria-autocomplete": "both",
+              "aria-expanded": "false",
+              "aria-haspopup": "false",
+              "autocapitalize": "off",
+              "autocomplete": "off",
+              "autocorrect": "off",
+              "id": "APjFqb",
+              "maxlength": "2048",
+              "name": "q",
+              "role": "combobox",
+              "rows": "1",
+              "spellcheck": "false",
+              "jsaction": "paste:puy29d",
+              "data-ved": "0ahUKEwjltI2mu8qMAxWCp1YBHSuoIocQ39UDCAY"
+            },
+            "shadow_root": false,
+            "css_selector": "html > body > div > div:nth-of-type(3) > form > div > div > div > div > div:nth-of-type(2) > textarea.gLFyf[title=\"Search\"][aria-label=\"Search\"][placeholder][autocomplete=\"off\"][id=\"APjFqb\"][name=\"q\"][role=\"combobox\"]",
+            "page_coordinates": {},
+            "viewport_coordinates": {},
+            "viewport_info": {}
+          }
+        ],
+        "url": "https://www.google.com/",
+        "title": "Google"
+      },
+      "metadata": {
+        "step_start_time": 1744184957.602889,
+        "step_end_time": 1744184961.108027,
+        "input_tokens": 3002,
+        "step_number": 3
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - I have inputted the text",
+          "memory": "Starting with the new task. I have completed 2/1 steps",
+          "next_goal": "Click on search button"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked button with index 25: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.google.com/",
+            "title": "Google"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div[3]/form/div/div/div[2]/div[4]/div[6]/center/input",
+            "highlight_index": 25,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "center",
+              "input"
+            ],
+            "attributes": {
+              "class": "gNO89b",
+              "value": "Google Search",
+              "aria-label": "Google Search",
+              "name": "btnK",
+              "role": "button",
+              "tabindex": "0",
+              "type": "submit",
+              "data-ved": "0ahUKEwjltI2mu8qMAxWCp1YBHSuoIocQ4dUDCBA",
+              "style": ""
+            },
+            "shadow_root": false,
+            "css_selector": "html > body > div > div:nth-of-type(3) > form > div > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(6) > center > input.gNO89b[aria-label=\"Google Search\"][name=\"btnK\"][role=\"button\"][type=\"submit\"]",
+            "page_coordinates": {},
+            "viewport_coordinates": {},
+            "viewport_info": {}
+          }
+        ],
+        "url": "https://www.google.com/",
+        "title": "Google"
+      },
+      "metadata": {
+        "step_start_time": 1744184961.10862,
+        "step_end_time": 1744184966.30338,
+        "input_tokens": 3479,
+        "step_number": 4
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - I clicked on the search button and got the results",
+          "memory": "Starting with the new task. I have completed 3/1 steps",
+          "next_goal": "Return the results"
+        },
+        "action": [
+          {
+            "done": {
+              "text": "The temperature in Bangalore is 33 degrees Celsius and sunny.",
+              "success": true
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "success": true,
+          "extracted_content": "The temperature in Bangalore is 33 degrees Celsius and sunny.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.google.com/search?q=temperature+in+bangalore&sca_esv=7c7b298578be5db7&source=hp&ei=fCb2Z-WGJ4LP2roPq9CKuQg&iflsig=ACkRmUkAAAAAZ_Y0jB8urh3atvLGRvwKSIhS6Q211HzI&ved=0ahUKEwjltI2mu8qMAxWCp1YBHSuoIocQ4dUDCBA&oq=temperature+in+bangalore&gs_lp=Egdnd3Mtd2l6Ihh0ZW1wZXJhdHVyZSBpbiBiYW5nYWxvcmUyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOscUABYAHAAeACQAQCYAU2gAU2qAQExuAEMyAEA-AEBmAIBoAJTmAMAkgcBMaAHhwayBwExuAdT&sclient=gws-wiz&sei=hCb2Z_LYN_bp4-EPofrb8Ac",
+            "title": "temperature in bangalore - Google Search"
+          }
+        ],
+        "screenshot": "",
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.google.com/search?q=temperature+in+bangalore&sca_esv=7c7b298578be5db7&source=hp&ei=fCb2Z-WGJ4LP2roPq9CKuQg&iflsig=ACkRmUkAAAAAZ_Y0jB8urh3atvLGRvwKSIhS6Q211HzI&ved=0ahUKEwjltI2mu8qMAxWCp1YBHSuoIocQ4dUDCBA&oq=temperature+in+bangalore&gs_lp=Egdnd3Mtd2l6Ihh0ZW1wZXJhdHVyZSBpbiBiYW5nYWxvcmUyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOscUABYAHAAeACQAQCYAU2gAU2qAQExuAEMyAEA-AEBmAIBoAJTmAMAkgcBMaAHhwayBwExuAdT&sclient=gws-wiz&sei=hCb2Z_LYN_bp4-EPofrb8Ac",
+        "title": "temperature in bangalore - Google Search"
+      },
+      "metadata": {
+        "step_start_time": 1744184966.303833,
+        "step_end_time": 1744184970.3716512,
+        "input_tokens": 4467,
+        "step_number": 5
+      }
+    }
+  ]
+}
