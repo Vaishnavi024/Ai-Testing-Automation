@@ -70,4 +70,7 @@ These are loaded and masked in the app sidebar.
 ## Demo & Screenshots
 
 <!-- Add your screenshots and videos here -->
+<h3>Search Tab Screenshot</h3>
+<img width="100%" alt="Homepage Test Screenshot" src="https://github.com/user-attachments/assets/0f75d409-a53d-437a-9866-7b2d87c7a
+
 
