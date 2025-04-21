@@ -1,7 +1,7 @@
-# PyngAutomation
+
 # PyngTest Agent
 
-PyngTest Agent is an AI-based automation tool for testing the web interface of https://pyng.co.in. It enables test execution using LLMs (OpenAI, Gemini, or Anthropic) through predefined flows or natural language instructions. The app is built with Streamlit for an interactive visual experience. Add api key in .env
+PyngTest Agent is an AI-based automation tool for testing the web interface of any website. It enables test execution using LLMs (OpenAI, Gemini, or Anthropic) through predefined flows or natural language instructions. The app is built with Streamlit for an interactive visual experience. Add api key in .env
 
 ## Features
 
@@ -19,7 +19,7 @@ PyngTest Agent is an AI-based automation tool for testing the web interface of h
 ## Clone the Repository
 
 ```
-git clone https://github.com/Vaishnavi024/PyngAutomation  
+git clone https://github.com/Vaishnavi024/
 cd PyngAutomation
 ```
 
